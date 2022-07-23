@@ -5,14 +5,33 @@ body {
 }
 header {
     background-color: #252547;
-    padding: 1em 0px;
     margin: 0px;
 }
 h1 {
     color: #f6fbff;
     text-align: center;
     font-size: 1.9em;
+    padding: 0.3em 0px;
     margin: 0px;
+}
+.style_bar {
+    text-align: center;
+    background-color: #313155;
+    margin: 0px;
+    padding: 0.4em 0px;
+}
+.labs {
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #f6fbff;
+    padding: 0.1em 0.5em;
+    border-radius: 2px;
+    margin: 0px 1em;
+}
+#blackLab {
+    color: #f6fbff;
+    background-color: #252547;
+    border: 0.1em solid #f6fbff;
 }
 main {
     max-width: 1110px;
