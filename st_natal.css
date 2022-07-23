@@ -36,8 +36,17 @@ p {
     margin: 0.4em 0.6em;
 }
 span {
-    color: #ffe2e2;
-    background-color: #470000;
-
-    padding: 0px 0.05em;
+    border-radius: 0.2em;
+    padding: 0px 0.07em;
 }
+.span1 {
+    color: #470000;
+    background-color: #ff5c5c;
+}
+.span2 {
+    color: #084700;
+    background-color: #67ff5c;
+}
+/*
+#ffe2e2
+*/

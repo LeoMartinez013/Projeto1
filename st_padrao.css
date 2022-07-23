@@ -36,5 +36,6 @@ span {
     color: #f6fbff;
     background-color: #252547;
 
-    padding: 0px 0.05em;
+    border-radius: 0.2em;
+    padding: 0px 0.07em;
 }
