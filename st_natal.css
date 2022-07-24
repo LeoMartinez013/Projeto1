@@ -15,6 +15,25 @@ h1 {
     padding: 0.3em 0px;
     margin: 0px;
 }
+.style_bar {
+    text-align: center;
+    background-color: #3d6638;
+    margin: 0px;
+    padding: 0.4em 0px;
+}
+.labs {
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #f6fbff;
+    padding: 0.1em 0.5em;
+    border-radius: 2px;
+    margin: 0px 1em;
+}
+#natalLab {
+    color: #084700;
+    background-color: #ffa3a3;
+    border: 0.1em solid #ff0c0c;
+}
 main {
     max-width: 1110px;
 
