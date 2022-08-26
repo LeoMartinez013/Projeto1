@@ -27,6 +27,7 @@ h1 {
     padding: 0.1em 0.5em;
     border-radius: 2px;
     margin: 0px 1em;
+    cursor: pointer;
 }
 #whiteLab {
     color: #f6fbff;
@@ -48,13 +49,11 @@ h2 {
     margin: 0.4em 0em;
 }
 p {
-    
     margin: 0.4em 0.6em;
 }
 span {
     color: #f6fbff;
     background-color: #252547;
-
     border-radius: 0.2em;
     padding: 0px 0.07em;
 }

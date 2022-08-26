@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="st_noturno.css">
+    <link id="estilo" rel="stylesheet" href="st_padrao.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
     <title>Site teste</title>
-    <style>
-        
-    </style>
+    <script>
+        var temaWhite = document.getElementById('whiteLab');
+        var temaBlack = document.getElementById('blackLab');
+        var temaNatal = document.getElementById('natalLab');
+        temaWhite.addEventListener('click', mudarWhite);
+        temaBlack.addEventListener('click', mudarBlack);
+        temaNatal.addEventListener('click', mudarNatal);
+        function mudarWhite(){
+            document.getElementById('estilo').href = 'st_padrao.css';
+        }
+        function mudarBlack(){
+            document.getElementById('estilo').href = 'st_noturno.css';
+        }
+        function mudarNatal(){
+            document.getElementById('estilo').href = 'st_natal.css';
+        }
+    </script>
 </head>
 <body>
     <header>
